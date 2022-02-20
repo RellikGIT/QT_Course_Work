@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Help</class>
+ <widget class="QWidget" name="Help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Help</string>
+  </property>
+  <widget class="QPushButton" name="menuButton_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>790</y>
+     <width>191</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;=</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>831</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;При запуске системы показа справочного материала будет &lt;br/&gt;открыто содержание со ссылками на главы. Навигация по &lt;br/&gt;системе осуществляется с помощью гиперссылок&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;При запуске системы демонстрации работы алгоритма &lt;br/&gt;удаления из бинарного дерева дерево будет пустым. &lt;br/&gt;Дерево может быть заполнено случайно соответствующей &lt;br/&gt;кнопкой или поэлементно. Чтобы добавить элемент в дерево &lt;br/&gt;нужно ввести его значение(от 0 до 99) в поле ввода &lt;br/&gt;элемента и нажать кнопку добавить элемент.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Чтобы сгенерировать шаги демонстрации нужно ввести&lt;br/&gt;значение элемента (от 0 до 99) в поле ввода элемента &lt;br/&gt;и нажать кнопку удалить элемент. Навигация по шагам&lt;br/&gt;демонстрации осуществляется с помощью кнопок со стрелками &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;&lt;br/&gt;При запуске системы тестирования доступны настройки:&lt;br/&gt;Количество вопросов в тесте&lt;br/&gt;Сложность теста&lt;br/&gt;Таймер на выполнение теста&lt;br/&gt;Контрольный режим без доступа к теории и демонстрации&lt;br/&gt;&lt;br/&gt;Вопросы в тесте делятся на открытые и закрытые&lt;br/&gt;Ответ на открытый вопрос вводится в специальное поле ввода&lt;br/&gt;Ответ на закрытый вопрос вводится расстановкой соотв. галочек&lt;br/&gt;После прохождения теста вам будет доступен результат&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

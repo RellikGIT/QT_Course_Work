@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Demostration</class>
+ <widget class="QWidget" name="Demostration">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>904</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Demostration</string>
+  </property>
+  <widget class="QPushButton" name="menuButton_3">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>740</y>
+     <width>191</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>В меню</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addElementButton">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>270</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Добавить элемент</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteElementButton">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>350</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Удалить элемент</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fillRandomButton">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>90</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Заполнить случайно</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clearTreeButton">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>500</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Очистить дерево</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>160</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>891</width>
+     <height>711</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>750</y>
+     <width>191</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;=</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="forwardButton">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>740</y>
+     <width>191</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>=&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
